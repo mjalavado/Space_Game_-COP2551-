@@ -1,0 +1,15 @@
+C:\Users\meja2\OneDrive\Desktop\COP 2551\Space_Game_Demo\bin\Debug\Space_Game_Demo.exe.config
+C:\Users\meja2\OneDrive\Desktop\COP 2551\Space_Game_Demo\bin\Debug\Space_Game_Demo.exe
+C:\Users\meja2\OneDrive\Desktop\COP 2551\Space_Game_Demo\bin\Debug\Space_Game_Demo.pdb
+C:\Users\meja2\OneDrive\Desktop\COP 2551\Space_Game_Demo\obj\Debug\Space_Game_Demo.csproj.AssemblyReference.cache
+C:\Users\meja2\OneDrive\Desktop\COP 2551\Space_Game_Demo\obj\Debug\Space_Game_Demo.Form1.resources
+C:\Users\meja2\OneDrive\Desktop\COP 2551\Space_Game_Demo\obj\Debug\Space_Game_Demo.game_over_form.resources
+C:\Users\meja2\OneDrive\Desktop\COP 2551\Space_Game_Demo\obj\Debug\Space_Game_Demo.game_won_form.resources
+C:\Users\meja2\OneDrive\Desktop\COP 2551\Space_Game_Demo\obj\Debug\Space_Game_Demo.low_risk_planet_form.resources
+C:\Users\meja2\OneDrive\Desktop\COP 2551\Space_Game_Demo\obj\Debug\Space_Game_Demo.Planet_Choices_Form.resources
+C:\Users\meja2\OneDrive\Desktop\COP 2551\Space_Game_Demo\obj\Debug\Space_Game_Demo.prologue_form.resources
+C:\Users\meja2\OneDrive\Desktop\COP 2551\Space_Game_Demo\obj\Debug\Space_Game_Demo.Properties.Resources.resources
+C:\Users\meja2\OneDrive\Desktop\COP 2551\Space_Game_Demo\obj\Debug\Space_Game_Demo.csproj.GenerateResource.cache
+C:\Users\meja2\OneDrive\Desktop\COP 2551\Space_Game_Demo\obj\Debug\Space_Game_Demo.csproj.CoreCompileInputs.cache
+C:\Users\meja2\OneDrive\Desktop\COP 2551\Space_Game_Demo\obj\Debug\Space_Game_Demo.exe
+C:\Users\meja2\OneDrive\Desktop\COP 2551\Space_Game_Demo\obj\Debug\Space_Game_Demo.pdb
