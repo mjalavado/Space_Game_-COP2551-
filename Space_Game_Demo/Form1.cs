@@ -17,6 +17,9 @@ namespace Space_Game_Demo
             InitializeComponent();
         }
 
+        //Dave here! adding a simple note to test the altering of a file 
+        // and then creating pull request to merge!
+
         //Notes
         /*
         1. user must input their name
