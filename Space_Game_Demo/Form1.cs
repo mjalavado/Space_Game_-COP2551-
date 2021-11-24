@@ -17,6 +17,28 @@ namespace Space_Game_Demo
             InitializeComponent();
         }
 
+        private void btnBeginGame_Click(object sender, EventArgs e)
+        {
+            //instance of Player assigned to textbox
+            Player player = new Player();
+            player.Name = usernameTextbox.Text;
+
+            //load the planet choice form
+            Planet_Choices_Form planetchoice = new Planet_Choices_Form();
+            planetchoice.ShowDialog();
+
+            //close current form
+            this.Close();
+            //doesn't seem to close the form at the moment 
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            //load the prologue form first. 
+            prologue_form prologue = new prologue_form();
+            prologue.ShowDialog();
+        }
+
         //Dave here! adding a simple note to test the altering of a file 
         // and then creating pull request to merge!
 

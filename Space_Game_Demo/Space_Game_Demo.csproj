@@ -64,18 +64,21 @@
     <Compile Include="game_won_form.Designer.cs">
       <DependentUpon>game_won_form.cs</DependentUpon>
     </Compile>
+    <Compile Include="Low_Risk_Planet.cs" />
     <Compile Include="low_risk_planet_form.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="low_risk_planet_form.Designer.cs">
       <DependentUpon>low_risk_planet_form.cs</DependentUpon>
     </Compile>
+    <Compile Include="Planet.cs" />
     <Compile Include="Planet_Choices_Form.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Planet_Choices_Form.Designer.cs">
       <DependentUpon>Planet_Choices_Form.cs</DependentUpon>
     </Compile>
+    <Compile Include="Player.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="prologue_form.cs">
       <SubType>Form</SubType>

@@ -32,7 +32,7 @@ namespace Space_Game_Demo
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.usernameTextbox = new System.Windows.Forms.TextBox();
             this.btnBeginGame = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -40,11 +40,12 @@ namespace Space_Game_Demo
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Bauhaus 93", 72F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(225, 58);
+            this.label1.Location = new System.Drawing.Point(338, 91);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(716, 136);
+            this.label1.Size = new System.Drawing.Size(1211, 217);
             this.label1.TabIndex = 0;
             this.label1.Text = "Space Game";
             // 
@@ -52,48 +53,54 @@ namespace Space_Game_Demo
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Bauhaus 93", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(394, 266);
+            this.label2.Location = new System.Drawing.Point(591, 416);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(184, 28);
+            this.label2.Size = new System.Drawing.Size(299, 42);
             this.label2.TabIndex = 1;
             this.label2.Text = "Enter Username:";
             // 
-            // textBox1
+            // usernameTextbox
             // 
-            this.textBox1.BackColor = System.Drawing.Color.Black;
-            this.textBox1.Font = new System.Drawing.Font("MS Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.ForeColor = System.Drawing.Color.Lime;
-            this.textBox1.Location = new System.Drawing.Point(584, 264);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(175, 30);
-            this.textBox1.TabIndex = 2;
+            this.usernameTextbox.BackColor = System.Drawing.Color.Black;
+            this.usernameTextbox.Font = new System.Drawing.Font("MS Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.usernameTextbox.ForeColor = System.Drawing.Color.Lime;
+            this.usernameTextbox.Location = new System.Drawing.Point(876, 412);
+            this.usernameTextbox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.usernameTextbox.Name = "usernameTextbox";
+            this.usernameTextbox.Size = new System.Drawing.Size(260, 44);
+            this.usernameTextbox.TabIndex = 2;
             // 
             // btnBeginGame
             // 
             this.btnBeginGame.BackColor = System.Drawing.Color.Black;
-            this.btnBeginGame.Font = new System.Drawing.Font("Bauhaus 93", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBeginGame.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBeginGame.ForeColor = System.Drawing.Color.White;
-            this.btnBeginGame.Location = new System.Drawing.Point(435, 341);
+            this.btnBeginGame.Location = new System.Drawing.Point(652, 533);
+            this.btnBeginGame.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnBeginGame.Name = "btnBeginGame";
-            this.btnBeginGame.Size = new System.Drawing.Size(287, 64);
+            this.btnBeginGame.Size = new System.Drawing.Size(430, 100);
             this.btnBeginGame.TabIndex = 3;
             this.btnBeginGame.Text = "Begin";
             this.btnBeginGame.UseVisualStyleBackColor = false;
+            this.btnBeginGame.Click += new System.EventHandler(this.btnBeginGame_Click);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(1179, 552);
+            this.ClientSize = new System.Drawing.Size(1768, 862);
             this.Controls.Add(this.btnBeginGame);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.usernameTextbox);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Form1";
             this.Text = "Beginning Form";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -103,7 +110,7 @@ namespace Space_Game_Demo
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox usernameTextbox;
         private System.Windows.Forms.Button btnBeginGame;
     }
 }
