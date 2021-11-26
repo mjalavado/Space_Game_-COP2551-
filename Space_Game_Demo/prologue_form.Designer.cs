@@ -38,11 +38,12 @@ namespace Space_Game_Demo
             // label1
             // 
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Bauhaus 93", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Lime;
-            this.label1.Location = new System.Drawing.Point(126, 131);
+            this.label1.Location = new System.Drawing.Point(189, 205);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(749, 196);
+            this.label1.Size = new System.Drawing.Size(1124, 306);
             this.label1.TabIndex = 0;
             this.label1.Text = resources.GetString("label1.Text");
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -50,11 +51,12 @@ namespace Space_Game_Demo
             // label2
             // 
             this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Bauhaus 93", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Lime;
-            this.label2.Location = new System.Drawing.Point(245, 62);
+            this.label2.Location = new System.Drawing.Point(368, 97);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(491, 50);
+            this.label2.Size = new System.Drawing.Size(736, 78);
             this.label2.TabIndex = 1;
             this.label2.Text = "Story Summary:";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -62,24 +64,27 @@ namespace Space_Game_Demo
             // btnContinuePrologue
             // 
             this.btnContinuePrologue.BackColor = System.Drawing.Color.Black;
-            this.btnContinuePrologue.Font = new System.Drawing.Font("Bauhaus 93", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnContinuePrologue.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnContinuePrologue.ForeColor = System.Drawing.Color.White;
-            this.btnContinuePrologue.Location = new System.Drawing.Point(350, 381);
+            this.btnContinuePrologue.Location = new System.Drawing.Point(525, 595);
+            this.btnContinuePrologue.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnContinuePrologue.Name = "btnContinuePrologue";
-            this.btnContinuePrologue.Size = new System.Drawing.Size(287, 64);
+            this.btnContinuePrologue.Size = new System.Drawing.Size(430, 100);
             this.btnContinuePrologue.TabIndex = 4;
             this.btnContinuePrologue.Text = "Continue";
             this.btnContinuePrologue.UseVisualStyleBackColor = false;
+            this.btnContinuePrologue.Click += new System.EventHandler(this.btnContinuePrologue_Click);
             // 
             // prologue_form
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(982, 561);
+            this.ClientSize = new System.Drawing.Size(1473, 877);
             this.Controls.Add(this.btnContinuePrologue);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "prologue_form";
             this.Text = "prologue_form";
             this.ResumeLayout(false);

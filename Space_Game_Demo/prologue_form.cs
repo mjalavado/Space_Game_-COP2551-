@@ -16,5 +16,11 @@ namespace Space_Game_Demo
         {
             InitializeComponent();
         }
+
+        private void btnContinuePrologue_Click(object sender, EventArgs e)
+        {
+
+            this.Close();
+        }
     }
 }
