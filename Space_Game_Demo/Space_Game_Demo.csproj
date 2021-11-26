@@ -64,6 +64,12 @@
     <Compile Include="game_won_form.Designer.cs">
       <DependentUpon>game_won_form.cs</DependentUpon>
     </Compile>
+    <Compile Include="high_risk_planet_form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="high_risk_planet_form.Designer.cs">
+      <DependentUpon>high_risk_planet_form.cs</DependentUpon>
+    </Compile>
     <Compile Include="Low_Risk_Planet.cs" />
     <Compile Include="low_risk_planet_form.cs">
       <SubType>Form</SubType>
@@ -95,6 +101,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="game_won_form.resx">
       <DependentUpon>game_won_form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="high_risk_planet_form.resx">
+      <DependentUpon>high_risk_planet_form.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="low_risk_planet_form.resx">
       <DependentUpon>low_risk_planet_form.cs</DependentUpon>

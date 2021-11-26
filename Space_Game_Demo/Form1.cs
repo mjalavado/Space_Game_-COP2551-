@@ -24,8 +24,8 @@ namespace Space_Game_Demo
             player.Name = usernameTextbox.Text;
 
             //load the planet choice form
-            Planet_Choices_Form planetchoice = new Planet_Choices_Form();
-            planetchoice.ShowDialog();
+            Planet choices = new Planet();
+            choices.ChoosePlanet();
 
             //close current form
             this.Close();
