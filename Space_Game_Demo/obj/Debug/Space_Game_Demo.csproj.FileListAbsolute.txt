@@ -32,7 +32,6 @@ C:\Users\meja2\OneDrive\Documents\GitHub\Space_Game_-COP2551-\Space_Game_Demo\bi
 C:\Users\meja2\OneDrive\Documents\GitHub\Space_Game_-COP2551-\Space_Game_Demo\bin\Debug\Space_Game_Demo.exe
 C:\Users\meja2\OneDrive\Documents\GitHub\Space_Game_-COP2551-\Space_Game_Demo\bin\Debug\Space_Game_Demo.pdb
 C:\Users\meja2\OneDrive\Documents\GitHub\Space_Game_-COP2551-\Space_Game_Demo\obj\Debug\Space_Game_Demo.csproj.AssemblyReference.cache
-C:\Users\meja2\OneDrive\Documents\GitHub\Space_Game_-COP2551-\Space_Game_Demo\obj\Debug\Space_Game_Demo.Form1.resources
 C:\Users\meja2\OneDrive\Documents\GitHub\Space_Game_-COP2551-\Space_Game_Demo\obj\Debug\Space_Game_Demo.game_over_form.resources
 C:\Users\meja2\OneDrive\Documents\GitHub\Space_Game_-COP2551-\Space_Game_Demo\obj\Debug\Space_Game_Demo.game_won_form.resources
 C:\Users\meja2\OneDrive\Documents\GitHub\Space_Game_-COP2551-\Space_Game_Demo\obj\Debug\Space_Game_Demo.low_risk_planet_form.resources
@@ -44,3 +43,4 @@ C:\Users\meja2\OneDrive\Documents\GitHub\Space_Game_-COP2551-\Space_Game_Demo\ob
 C:\Users\meja2\OneDrive\Documents\GitHub\Space_Game_-COP2551-\Space_Game_Demo\obj\Debug\Space_Game_Demo.exe
 C:\Users\meja2\OneDrive\Documents\GitHub\Space_Game_-COP2551-\Space_Game_Demo\obj\Debug\Space_Game_Demo.pdb
 C:\Users\meja2\OneDrive\Documents\GitHub\Space_Game_-COP2551-\Space_Game_Demo\obj\Debug\Space_Game_Demo.high_risk_planet_form.resources
+C:\Users\meja2\OneDrive\Documents\GitHub\Space_Game_-COP2551-\Space_Game_Demo\obj\Debug\Space_Game_Demo.EntryForm.resources

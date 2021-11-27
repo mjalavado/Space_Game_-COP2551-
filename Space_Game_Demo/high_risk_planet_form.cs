@@ -19,14 +19,23 @@ namespace Space_Game_Demo
 
         private void btnSalvage_Click(object sender, EventArgs e)
         {
+            int parts;
 
+            //instantiate player class
+            Player CoinUp = new Player();
+
+            Random dice = new Random();
+
+            parts = dice.Next(1, 4);
+
+            CoinUp.EngineParts += parts;
+
+            MessageBox.Show("Intact Parts Detected: You Have Obtained " +
+                CoinUp.EngineParts.ToString() + " Parts", "Results");
         }
 
         private void btnReturn_Click(object sender, EventArgs e)
         {
-            Planet choices = new Planet();
-            choices.ChoosePlanet();
-
             this.Close();
         }
     }

@@ -23,27 +23,28 @@ namespace Space_Game_Demo
 
         private void btnLowRisk_Click(object sender, EventArgs e)
         {
+            //opens up the low risk planet form
             low_risk_planet_form load = new low_risk_planet_form();
-
             load.ShowDialog();
-
-            //closes planet choice form
-            this.Close();
-
-            //i'm also having the same issue. this form is not closing when it opens the low-risk planet form
         }
 
         private void btnHighRisk_Click(object sender, EventArgs e)
         {
+            //opens up the high risk planet form
             high_risk_planet_form load = new high_risk_planet_form();
-
             load.ShowDialog();
-
-            this.Close();
         }
 
         private void Planet_Choices_Form_Load(object sender, EventArgs e)
         {
+            //load the prologue form first. 
+            prologue_form prologue = new prologue_form();
+            prologue.ShowDialog();
+
+            //load the entry form second
+            EntryForm entry = new EntryForm();
+            entry.ShowDialog();
+
             //instantiate dice object  
             Random dice = new Random();
 

@@ -12,17 +12,18 @@ namespace Space_Game_Demo
 {
     public partial class low_risk_planet_form : Form
     {
-        int count = 0;
         public low_risk_planet_form()
         {
             InitializeComponent();
         }
 
+        //global variable
+        double total = 0;
+
         private void button2_Click(object sender, EventArgs e)
         {
-            count++;
-            lblResourceMined.Text = count.ToString();
-
+            total++;
+            this.tbResourcesMined.Text = total.ToString();
         }
     }
 }

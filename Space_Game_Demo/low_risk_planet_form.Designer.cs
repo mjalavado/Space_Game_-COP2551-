@@ -37,7 +37,7 @@ namespace Space_Game_Demo
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.button3 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.lblResourceMined = new System.Windows.Forms.Label();
+            this.tbResourcesMined = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
@@ -83,7 +83,7 @@ namespace Space_Game_Demo
             this.mineButton.BackColor = System.Drawing.Color.Black;
             this.mineButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mineButton.ForeColor = System.Drawing.Color.Lime;
-            this.mineButton.Location = new System.Drawing.Point(248, 485);
+            this.mineButton.Location = new System.Drawing.Point(261, 492);
             this.mineButton.Name = "mineButton";
             this.mineButton.Size = new System.Drawing.Size(197, 64);
             this.mineButton.TabIndex = 7;
@@ -124,17 +124,16 @@ namespace Space_Game_Demo
             this.label1.TabIndex = 14;
             this.label1.Text = "Parts Available:";
             // 
-            // lblResourceMined
+            // tbResourcesMined
             // 
-            this.lblResourceMined.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblResourceMined.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.lblResourceMined.Enabled = false;
-            this.lblResourceMined.ForeColor = System.Drawing.Color.Lime;
-            this.lblResourceMined.Location = new System.Drawing.Point(408, 422);
-            this.lblResourceMined.Name = "lblResourceMined";
-            this.lblResourceMined.Size = new System.Drawing.Size(180, 45);
-            this.lblResourceMined.TabIndex = 15;
-            this.lblResourceMined.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.tbResourcesMined.BackColor = System.Drawing.Color.Black;
+            this.tbResourcesMined.Font = new System.Drawing.Font("Microsoft Sans Serif", 17F);
+            this.tbResourcesMined.ForeColor = System.Drawing.Color.Lime;
+            this.tbResourcesMined.Location = new System.Drawing.Point(449, 428);
+            this.tbResourcesMined.Name = "tbResourcesMined";
+            this.tbResourcesMined.Size = new System.Drawing.Size(184, 40);
+            this.tbResourcesMined.TabIndex = 15;
+            this.tbResourcesMined.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // low_risk_planet_form
             // 
@@ -143,7 +142,7 @@ namespace Space_Game_Demo
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(792, 621);
-            this.Controls.Add(this.lblResourceMined);
+            this.Controls.Add(this.tbResourcesMined);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.pictureBox3);
@@ -169,6 +168,6 @@ namespace Space_Game_Demo
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label lblResourceMined;
+        private System.Windows.Forms.TextBox tbResourcesMined;
     }
 }
