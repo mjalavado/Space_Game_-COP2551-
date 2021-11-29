@@ -17,7 +17,6 @@ C:\Users\meja2\OneDrive\Desktop\COP 2551\Space_Game_Demo\obj\Debug\Space_Game_De
 \\Mac\Home\Documents\GitHub\Space_Game_-COP2551-\Space_Game_Demo\bin\Debug\Space_Game_Demo.exe
 \\Mac\Home\Documents\GitHub\Space_Game_-COP2551-\Space_Game_Demo\bin\Debug\Space_Game_Demo.pdb
 \\Mac\Home\Documents\GitHub\Space_Game_-COP2551-\Space_Game_Demo\obj\Debug\Space_Game_Demo.csproj.AssemblyReference.cache
-\\Mac\Home\Documents\GitHub\Space_Game_-COP2551-\Space_Game_Demo\obj\Debug\Space_Game_Demo.Form1.resources
 \\Mac\Home\Documents\GitHub\Space_Game_-COP2551-\Space_Game_Demo\obj\Debug\Space_Game_Demo.game_over_form.resources
 \\Mac\Home\Documents\GitHub\Space_Game_-COP2551-\Space_Game_Demo\obj\Debug\Space_Game_Demo.game_won_form.resources
 \\Mac\Home\Documents\GitHub\Space_Game_-COP2551-\Space_Game_Demo\obj\Debug\Space_Game_Demo.low_risk_planet_form.resources
@@ -28,3 +27,24 @@ C:\Users\meja2\OneDrive\Desktop\COP 2551\Space_Game_Demo\obj\Debug\Space_Game_De
 \\Mac\Home\Documents\GitHub\Space_Game_-COP2551-\Space_Game_Demo\obj\Debug\Space_Game_Demo.csproj.CoreCompileInputs.cache
 \\Mac\Home\Documents\GitHub\Space_Game_-COP2551-\Space_Game_Demo\obj\Debug\Space_Game_Demo.exe
 \\Mac\Home\Documents\GitHub\Space_Game_-COP2551-\Space_Game_Demo\obj\Debug\Space_Game_Demo.pdb
+<<<<<<< Updated upstream
+=======
+C:\Users\meja2\OneDrive\Documents\GitHub\Space_Game_-COP2551-\Space_Game_Demo\bin\Debug\Space_Game_Demo.exe.config
+C:\Users\meja2\OneDrive\Documents\GitHub\Space_Game_-COP2551-\Space_Game_Demo\bin\Debug\Space_Game_Demo.exe
+C:\Users\meja2\OneDrive\Documents\GitHub\Space_Game_-COP2551-\Space_Game_Demo\bin\Debug\Space_Game_Demo.pdb
+C:\Users\meja2\OneDrive\Documents\GitHub\Space_Game_-COP2551-\Space_Game_Demo\obj\Debug\Space_Game_Demo.csproj.AssemblyReference.cache
+C:\Users\meja2\OneDrive\Documents\GitHub\Space_Game_-COP2551-\Space_Game_Demo\obj\Debug\Space_Game_Demo.game_over_form.resources
+C:\Users\meja2\OneDrive\Documents\GitHub\Space_Game_-COP2551-\Space_Game_Demo\obj\Debug\Space_Game_Demo.game_won_form.resources
+C:\Users\meja2\OneDrive\Documents\GitHub\Space_Game_-COP2551-\Space_Game_Demo\obj\Debug\Space_Game_Demo.low_risk_planet_form.resources
+C:\Users\meja2\OneDrive\Documents\GitHub\Space_Game_-COP2551-\Space_Game_Demo\obj\Debug\Space_Game_Demo.Planet_Choices_Form.resources
+C:\Users\meja2\OneDrive\Documents\GitHub\Space_Game_-COP2551-\Space_Game_Demo\obj\Debug\Space_Game_Demo.prologue_form.resources
+C:\Users\meja2\OneDrive\Documents\GitHub\Space_Game_-COP2551-\Space_Game_Demo\obj\Debug\Space_Game_Demo.Properties.Resources.resources
+C:\Users\meja2\OneDrive\Documents\GitHub\Space_Game_-COP2551-\Space_Game_Demo\obj\Debug\Space_Game_Demo.csproj.GenerateResource.cache
+C:\Users\meja2\OneDrive\Documents\GitHub\Space_Game_-COP2551-\Space_Game_Demo\obj\Debug\Space_Game_Demo.csproj.CoreCompileInputs.cache
+C:\Users\meja2\OneDrive\Documents\GitHub\Space_Game_-COP2551-\Space_Game_Demo\obj\Debug\Space_Game_Demo.exe
+C:\Users\meja2\OneDrive\Documents\GitHub\Space_Game_-COP2551-\Space_Game_Demo\obj\Debug\Space_Game_Demo.pdb
+C:\Users\meja2\OneDrive\Documents\GitHub\Space_Game_-COP2551-\Space_Game_Demo\obj\Debug\Space_Game_Demo.high_risk_planet_form.resources
+C:\Users\meja2\OneDrive\Documents\GitHub\Space_Game_-COP2551-\Space_Game_Demo\obj\Debug\Space_Game_Demo.EntryForm.resources
+\\Mac\Home\Documents\GitHub\Space_Game_-COP2551-\Space_Game_Demo\obj\Debug\Space_Game_Demo.EntryForm.resources
+\\Mac\Home\Documents\GitHub\Space_Game_-COP2551-\Space_Game_Demo\obj\Debug\Space_Game_Demo.high_risk_planet_form.resources
+>>>>>>> Stashed changes

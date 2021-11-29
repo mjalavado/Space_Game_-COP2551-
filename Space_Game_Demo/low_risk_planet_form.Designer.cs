@@ -31,15 +31,19 @@ namespace Space_Game_Demo
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(low_risk_planet_form));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.btnBeginGame = new System.Windows.Forms.Button();
+            this.btnGetEngine = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.mineButton = new System.Windows.Forms.Button();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
+<<<<<<< Updated upstream
             this.button3 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.button4 = new System.Windows.Forms.Button();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
+=======
+            this.purchaseButton = new System.Windows.Forms.Button();
+>>>>>>> Stashed changes
             this.label1 = new System.Windows.Forms.Label();
             this.lblResourceMined = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -60,6 +64,7 @@ namespace Space_Game_Demo
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
+<<<<<<< Updated upstream
             // btnBeginGame
             // 
             this.btnBeginGame.BackColor = System.Drawing.Color.Black;
@@ -72,6 +77,22 @@ namespace Space_Game_Demo
             this.btnBeginGame.TabIndex = 4;
             this.btnBeginGame.Text = "Ship Equipment";
             this.btnBeginGame.UseVisualStyleBackColor = false;
+=======
+            // btnGetEngine
+            // 
+            this.btnGetEngine.BackColor = System.Drawing.Color.Black;
+            this.btnGetEngine.Enabled = false;
+            this.btnGetEngine.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGetEngine.ForeColor = System.Drawing.Color.Lime;
+            this.btnGetEngine.Location = new System.Drawing.Point(82, 22);
+            this.btnGetEngine.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnGetEngine.Name = "btnGetEngine";
+            this.btnGetEngine.Size = new System.Drawing.Size(430, 100);
+            this.btnGetEngine.TabIndex = 4;
+            this.btnGetEngine.Text = "Get Light Speed Engine";
+            this.btnGetEngine.UseVisualStyleBackColor = false;
+            this.btnGetEngine.Click += new System.EventHandler(this.btnGetEngine_Click);
+>>>>>>> Stashed changes
             // 
             // label2
             // 
@@ -80,7 +101,11 @@ namespace Space_Game_Demo
             this.label2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
+<<<<<<< Updated upstream
             this.label2.Location = new System.Drawing.Point(358, 695);
+=======
+            this.label2.Location = new System.Drawing.Point(124, 659);
+>>>>>>> Stashed changes
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(513, 71);
@@ -92,24 +117,33 @@ namespace Space_Game_Demo
             this.mineButton.BackColor = System.Drawing.Color.Black;
             this.mineButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mineButton.ForeColor = System.Drawing.Color.Lime;
+<<<<<<< Updated upstream
             this.mineButton.Location = new System.Drawing.Point(606, 794);
+=======
+            this.mineButton.Location = new System.Drawing.Point(392, 769);
+>>>>>>> Stashed changes
             this.mineButton.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.mineButton.Name = "mineButton";
             this.mineButton.Size = new System.Drawing.Size(296, 100);
             this.mineButton.TabIndex = 7;
             this.mineButton.Text = "Mine";
             this.mineButton.UseVisualStyleBackColor = false;
-            this.mineButton.Click += new System.EventHandler(this.button2_Click);
+            this.mineButton.Click += new System.EventHandler(this.MineButton);
             // 
             // pictureBox3
             // 
+<<<<<<< Updated upstream
             this.pictureBox3.Location = new System.Drawing.Point(1132, 133);
+=======
+            this.pictureBox3.Location = new System.Drawing.Point(674, 162);
+>>>>>>> Stashed changes
             this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(282, 311);
             this.pictureBox3.TabIndex = 9;
             this.pictureBox3.TabStop = false;
             // 
+<<<<<<< Updated upstream
             // button3
             // 
             this.button3.BackColor = System.Drawing.Color.Black;
@@ -122,6 +156,22 @@ namespace Space_Game_Demo
             this.button3.TabIndex = 10;
             this.button3.Text = "Purchase";
             this.button3.UseVisualStyleBackColor = false;
+=======
+            // purchaseButton
+            // 
+            this.purchaseButton.BackColor = System.Drawing.Color.Black;
+            this.purchaseButton.Enabled = false;
+            this.purchaseButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.purchaseButton.ForeColor = System.Drawing.Color.Lime;
+            this.purchaseButton.Location = new System.Drawing.Point(674, 503);
+            this.purchaseButton.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.purchaseButton.Name = "purchaseButton";
+            this.purchaseButton.Size = new System.Drawing.Size(282, 100);
+            this.purchaseButton.TabIndex = 10;
+            this.purchaseButton.Text = "Purchase";
+            this.purchaseButton.UseVisualStyleBackColor = false;
+            this.purchaseButton.Click += new System.EventHandler(this.purchaseButton_Click);
+>>>>>>> Stashed changes
             // 
             // button5
             // 
@@ -174,7 +224,11 @@ namespace Space_Game_Demo
             this.label1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
+<<<<<<< Updated upstream
             this.label1.Location = new System.Drawing.Point(784, 33);
+=======
+            this.label1.Location = new System.Drawing.Point(594, 31);
+>>>>>>> Stashed changes
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(449, 71);
@@ -183,6 +237,7 @@ namespace Space_Game_Demo
             // 
             // lblResourceMined
             // 
+<<<<<<< Updated upstream
             this.lblResourceMined.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblResourceMined.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.lblResourceMined.Enabled = false;
@@ -193,6 +248,17 @@ namespace Space_Game_Demo
             this.lblResourceMined.Size = new System.Drawing.Size(270, 70);
             this.lblResourceMined.TabIndex = 15;
             this.lblResourceMined.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+=======
+            this.tbResourcesMined.BackColor = System.Drawing.Color.Black;
+            this.tbResourcesMined.Font = new System.Drawing.Font("Microsoft Sans Serif", 17F);
+            this.tbResourcesMined.ForeColor = System.Drawing.Color.Lime;
+            this.tbResourcesMined.Location = new System.Drawing.Point(674, 669);
+            this.tbResourcesMined.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.tbResourcesMined.Name = "tbResourcesMined";
+            this.tbResourcesMined.Size = new System.Drawing.Size(274, 59);
+            this.tbResourcesMined.TabIndex = 15;
+            this.tbResourcesMined.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+>>>>>>> Stashed changes
             // 
             // low_risk_planet_form
             // 
@@ -200,6 +266,7 @@ namespace Space_Game_Demo
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+<<<<<<< Updated upstream
             this.ClientSize = new System.Drawing.Size(1468, 909);
             this.Controls.Add(this.lblResourceMined);
             this.Controls.Add(this.label1);
@@ -207,11 +274,17 @@ namespace Space_Game_Demo
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
+=======
+            this.ClientSize = new System.Drawing.Size(1188, 970);
+            this.Controls.Add(this.tbResourcesMined);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.purchaseButton);
+>>>>>>> Stashed changes
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.mineButton);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.btnBeginGame);
+            this.Controls.Add(this.btnGetEngine);
             this.Controls.Add(this.pictureBox1);
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "low_risk_planet_form";
@@ -228,15 +301,19 @@ namespace Space_Game_Demo
         #endregion
 
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Button btnBeginGame;
+        private System.Windows.Forms.Button btnGetEngine;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button mineButton;
         private System.Windows.Forms.PictureBox pictureBox3;
+<<<<<<< Updated upstream
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.PictureBox pictureBox4;
+=======
+        private System.Windows.Forms.Button purchaseButton;
+>>>>>>> Stashed changes
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label lblResourceMined;
     }
