@@ -47,4 +47,7 @@ C:\Users\meja2\OneDrive\Documents\GitHub\Space_Game_-COP2551-\Space_Game_Demo\ob
 C:\Users\meja2\OneDrive\Documents\GitHub\Space_Game_-COP2551-\Space_Game_Demo\obj\Debug\Space_Game_Demo.EntryForm.resources
 \\Mac\Home\Documents\GitHub\Space_Game_-COP2551-\Space_Game_Demo\obj\Debug\Space_Game_Demo.EntryForm.resources
 \\Mac\Home\Documents\GitHub\Space_Game_-COP2551-\Space_Game_Demo\obj\Debug\Space_Game_Demo.high_risk_planet_form.resources
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes

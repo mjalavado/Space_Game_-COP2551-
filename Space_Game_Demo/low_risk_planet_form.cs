@@ -13,7 +13,11 @@ namespace Space_Game_Demo
     public partial class low_risk_planet_form : Form
     {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         int count = 0;
+=======
+        
+>>>>>>> Stashed changes
 =======
         
 >>>>>>> Stashed changes
@@ -22,6 +26,7 @@ namespace Space_Game_Demo
             InitializeComponent();
         }
 
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
         private void button2_Click(object sender, EventArgs e)
         {
@@ -35,6 +40,14 @@ namespace Space_Game_Demo
         
         private void MineButton(object sender, EventArgs e)
         {
+=======
+        //create Player object
+        Player player = new Player();
+
+        
+        private void MineButton(object sender, EventArgs e)
+        {
+>>>>>>> Stashed changes
             //Player Coin object incremented and added to label
             player.Coin++;
             this.tbResourcesMined.Text = player.Coin.ToString();
@@ -90,6 +103,9 @@ namespace Space_Game_Demo
             //load Game Won form
             game_won_form winner = new game_won_form();
             winner.ShowDialog();
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
         }
     }
