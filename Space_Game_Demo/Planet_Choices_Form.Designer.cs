@@ -32,8 +32,8 @@ namespace Space_Game_Demo
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Planet_Choices_Form));
             this.LowRiskPlanetOne = new System.Windows.Forms.PictureBox();
             this.HighRiskPlanetOne = new System.Windows.Forms.PictureBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
+            this.lblPlanetOneLR = new System.Windows.Forms.Label();
+            this.lblPlanetOneHR = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -58,6 +58,20 @@ namespace Space_Game_Demo
             this.HighRiskPlanetSix = new System.Windows.Forms.PictureBox();
             this.HighRiskPlanetSeven = new System.Windows.Forms.PictureBox();
             this.HighRiskPlanetEight = new System.Windows.Forms.PictureBox();
+            this.lblPlanetTwoLR = new System.Windows.Forms.Label();
+            this.lblPlanetThreeLR = new System.Windows.Forms.Label();
+            this.lblPlanetFourLR = new System.Windows.Forms.Label();
+            this.lblPlanetFiveLR = new System.Windows.Forms.Label();
+            this.lblPlanetSixLR = new System.Windows.Forms.Label();
+            this.lblPlanetSevenLR = new System.Windows.Forms.Label();
+            this.lblPlanetEightLR = new System.Windows.Forms.Label();
+            this.lblPlanetTwoHR = new System.Windows.Forms.Label();
+            this.lblPlanetThreeHR = new System.Windows.Forms.Label();
+            this.lblPlanetFourHR = new System.Windows.Forms.Label();
+            this.lblPlanetFiveHR = new System.Windows.Forms.Label();
+            this.lblPlanetSixHR = new System.Windows.Forms.Label();
+            this.lblPlanetSevenHR = new System.Windows.Forms.Label();
+            this.lblPlanetEightHR = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.LowRiskPlanetOne)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.HighRiskPlanetOne)).BeginInit();
             this.groupBox1.SuspendLayout();
@@ -100,29 +114,29 @@ namespace Space_Game_Demo
             this.HighRiskPlanetOne.TabIndex = 1;
             this.HighRiskPlanetOne.TabStop = false;
             // 
-            // label2
+            // lblPlanetOneLR
             // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Bauhaus 93", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(207, 18);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(170, 28);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "*Planet Name*";
+            this.lblPlanetOneLR.AutoSize = true;
+            this.lblPlanetOneLR.BackColor = System.Drawing.Color.Transparent;
+            this.lblPlanetOneLR.Font = new System.Drawing.Font("Bauhaus 93", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPlanetOneLR.ForeColor = System.Drawing.Color.White;
+            this.lblPlanetOneLR.Location = new System.Drawing.Point(245, 18);
+            this.lblPlanetOneLR.Name = "lblPlanetOneLR";
+            this.lblPlanetOneLR.Size = new System.Drawing.Size(102, 28);
+            this.lblPlanetOneLR.TabIndex = 2;
+            this.lblPlanetOneLR.Text = "Asclepiu";
             // 
-            // label1
+            // lblPlanetOneHR
             // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Bauhaus 93", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(823, 18);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(170, 28);
-            this.label1.TabIndex = 3;
-            this.label1.Text = "*Planet Name*";
+            this.lblPlanetOneHR.AutoSize = true;
+            this.lblPlanetOneHR.BackColor = System.Drawing.Color.Transparent;
+            this.lblPlanetOneHR.Font = new System.Drawing.Font("Bauhaus 93", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPlanetOneHR.ForeColor = System.Drawing.Color.White;
+            this.lblPlanetOneHR.Location = new System.Drawing.Point(854, 18);
+            this.lblPlanetOneHR.Name = "lblPlanetOneHR";
+            this.lblPlanetOneHR.Size = new System.Drawing.Size(102, 28);
+            this.lblPlanetOneHR.TabIndex = 3;
+            this.lblPlanetOneHR.Text = "2020 RU";
             // 
             // groupBox1
             // 
@@ -406,12 +420,194 @@ namespace Space_Game_Demo
             this.HighRiskPlanetEight.TabIndex = 21;
             this.HighRiskPlanetEight.TabStop = false;
             // 
+            // lblPlanetTwoLR
+            // 
+            this.lblPlanetTwoLR.AutoSize = true;
+            this.lblPlanetTwoLR.BackColor = System.Drawing.Color.Transparent;
+            this.lblPlanetTwoLR.Font = new System.Drawing.Font("Bauhaus 93", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPlanetTwoLR.ForeColor = System.Drawing.Color.White;
+            this.lblPlanetTwoLR.Location = new System.Drawing.Point(245, 18);
+            this.lblPlanetTwoLR.Name = "lblPlanetTwoLR";
+            this.lblPlanetTwoLR.Size = new System.Drawing.Size(100, 28);
+            this.lblPlanetTwoLR.TabIndex = 22;
+            this.lblPlanetTwoLR.Text = "2020 YB";
+            // 
+            // lblPlanetThreeLR
+            // 
+            this.lblPlanetThreeLR.AutoSize = true;
+            this.lblPlanetThreeLR.BackColor = System.Drawing.Color.Transparent;
+            this.lblPlanetThreeLR.Font = new System.Drawing.Font("Bauhaus 93", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPlanetThreeLR.ForeColor = System.Drawing.Color.White;
+            this.lblPlanetThreeLR.Location = new System.Drawing.Point(256, 18);
+            this.lblPlanetThreeLR.Name = "lblPlanetThreeLR";
+            this.lblPlanetThreeLR.Size = new System.Drawing.Size(81, 28);
+            this.lblPlanetThreeLR.TabIndex = 23;
+            this.lblPlanetThreeLR.Text = "Artemi";
+            // 
+            // lblPlanetFourLR
+            // 
+            this.lblPlanetFourLR.AutoSize = true;
+            this.lblPlanetFourLR.BackColor = System.Drawing.Color.Transparent;
+            this.lblPlanetFourLR.Font = new System.Drawing.Font("Bauhaus 93", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPlanetFourLR.ForeColor = System.Drawing.Color.White;
+            this.lblPlanetFourLR.Location = new System.Drawing.Point(234, 18);
+            this.lblPlanetFourLR.Name = "lblPlanetFourLR";
+            this.lblPlanetFourLR.Size = new System.Drawing.Size(127, 28);
+            this.lblPlanetFourLR.TabIndex = 24;
+            this.lblPlanetFourLR.Text = "Porphyrion";
+            // 
+            // lblPlanetFiveLR
+            // 
+            this.lblPlanetFiveLR.AutoSize = true;
+            this.lblPlanetFiveLR.BackColor = System.Drawing.Color.Transparent;
+            this.lblPlanetFiveLR.Font = new System.Drawing.Font("Bauhaus 93", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPlanetFiveLR.ForeColor = System.Drawing.Color.White;
+            this.lblPlanetFiveLR.Location = new System.Drawing.Point(255, 18);
+            this.lblPlanetFiveLR.Name = "lblPlanetFiveLR";
+            this.lblPlanetFiveLR.Size = new System.Drawing.Size(82, 28);
+            this.lblPlanetFiveLR.TabIndex = 25;
+            this.lblPlanetFiveLR.Text = "Oenoe";
+            // 
+            // lblPlanetSixLR
+            // 
+            this.lblPlanetSixLR.AutoSize = true;
+            this.lblPlanetSixLR.BackColor = System.Drawing.Color.Transparent;
+            this.lblPlanetSixLR.Font = new System.Drawing.Font("Bauhaus 93", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPlanetSixLR.ForeColor = System.Drawing.Color.White;
+            this.lblPlanetSixLR.Location = new System.Drawing.Point(206, 18);
+            this.lblPlanetSixLR.Name = "lblPlanetSixLR";
+            this.lblPlanetSixLR.Size = new System.Drawing.Size(178, 28);
+            this.lblPlanetSixLR.TabIndex = 26;
+            this.lblPlanetSixLR.Text = "Alpha Pavonis N";
+            // 
+            // lblPlanetSevenLR
+            // 
+            this.lblPlanetSevenLR.AutoSize = true;
+            this.lblPlanetSevenLR.BackColor = System.Drawing.Color.Transparent;
+            this.lblPlanetSevenLR.Font = new System.Drawing.Font("Bauhaus 93", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPlanetSevenLR.ForeColor = System.Drawing.Color.White;
+            this.lblPlanetSevenLR.Location = new System.Drawing.Point(256, 18);
+            this.lblPlanetSevenLR.Name = "lblPlanetSevenLR";
+            this.lblPlanetSevenLR.Size = new System.Drawing.Size(66, 28);
+            this.lblPlanetSevenLR.TabIndex = 27;
+            this.lblPlanetSevenLR.Text = "TCS L";
+            // 
+            // lblPlanetEightLR
+            // 
+            this.lblPlanetEightLR.AutoSize = true;
+            this.lblPlanetEightLR.BackColor = System.Drawing.Color.Transparent;
+            this.lblPlanetEightLR.Font = new System.Drawing.Font("Bauhaus 93", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPlanetEightLR.ForeColor = System.Drawing.Color.White;
+            this.lblPlanetEightLR.Location = new System.Drawing.Point(234, 18);
+            this.lblPlanetEightLR.Name = "lblPlanetEightLR";
+            this.lblPlanetEightLR.Size = new System.Drawing.Size(111, 28);
+            this.lblPlanetEightLR.TabIndex = 28;
+            this.lblPlanetEightLR.Text = "Ceramici";
+            // 
+            // lblPlanetTwoHR
+            // 
+            this.lblPlanetTwoHR.AutoSize = true;
+            this.lblPlanetTwoHR.BackColor = System.Drawing.Color.Transparent;
+            this.lblPlanetTwoHR.Font = new System.Drawing.Font("Bauhaus 93", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPlanetTwoHR.ForeColor = System.Drawing.Color.White;
+            this.lblPlanetTwoHR.Location = new System.Drawing.Point(826, 18);
+            this.lblPlanetTwoHR.Name = "lblPlanetTwoHR";
+            this.lblPlanetTwoHR.Size = new System.Drawing.Size(157, 28);
+            this.lblPlanetTwoHR.TabIndex = 29;
+            this.lblPlanetTwoHR.Text = "Beta Scorpii F";
+            // 
+            // lblPlanetThreeHR
+            // 
+            this.lblPlanetThreeHR.AutoSize = true;
+            this.lblPlanetThreeHR.BackColor = System.Drawing.Color.Transparent;
+            this.lblPlanetThreeHR.Font = new System.Drawing.Font("Bauhaus 93", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPlanetThreeHR.ForeColor = System.Drawing.Color.White;
+            this.lblPlanetThreeHR.Location = new System.Drawing.Point(854, 18);
+            this.lblPlanetThreeHR.Name = "lblPlanetThreeHR";
+            this.lblPlanetThreeHR.Size = new System.Drawing.Size(105, 28);
+            this.lblPlanetThreeHR.TabIndex = 30;
+            this.lblPlanetThreeHR.Text = "Agriopas";
+            // 
+            // lblPlanetFourHR
+            // 
+            this.lblPlanetFourHR.AutoSize = true;
+            this.lblPlanetFourHR.BackColor = System.Drawing.Color.Transparent;
+            this.lblPlanetFourHR.Font = new System.Drawing.Font("Bauhaus 93", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPlanetFourHR.ForeColor = System.Drawing.Color.White;
+            this.lblPlanetFourHR.Location = new System.Drawing.Point(861, 18);
+            this.lblPlanetFourHR.Name = "lblPlanetFourHR";
+            this.lblPlanetFourHR.Size = new System.Drawing.Size(98, 28);
+            this.lblPlanetFourHR.TabIndex = 31;
+            this.lblPlanetFourHR.Text = "Toppo  L";
+            // 
+            // lblPlanetFiveHR
+            // 
+            this.lblPlanetFiveHR.AutoSize = true;
+            this.lblPlanetFiveHR.BackColor = System.Drawing.Color.Transparent;
+            this.lblPlanetFiveHR.Font = new System.Drawing.Font("Bauhaus 93", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPlanetFiveHR.ForeColor = System.Drawing.Color.White;
+            this.lblPlanetFiveHR.Location = new System.Drawing.Point(861, 18);
+            this.lblPlanetFiveHR.Name = "lblPlanetFiveHR";
+            this.lblPlanetFiveHR.Size = new System.Drawing.Size(100, 28);
+            this.lblPlanetFiveHR.TabIndex = 32;
+            this.lblPlanetFiveHR.Text = "Calypso";
+            // 
+            // lblPlanetSixHR
+            // 
+            this.lblPlanetSixHR.AutoSize = true;
+            this.lblPlanetSixHR.BackColor = System.Drawing.Color.Transparent;
+            this.lblPlanetSixHR.Font = new System.Drawing.Font("Bauhaus 93", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPlanetSixHR.ForeColor = System.Drawing.Color.White;
+            this.lblPlanetSixHR.Location = new System.Drawing.Point(854, 18);
+            this.lblPlanetSixHR.Name = "lblPlanetSixHR";
+            this.lblPlanetSixHR.Size = new System.Drawing.Size(111, 28);
+            this.lblPlanetSixHR.TabIndex = 33;
+            this.lblPlanetSixHR.Text = "Sarpedon";
+            // 
+            // lblPlanetSevenHR
+            // 
+            this.lblPlanetSevenHR.AutoSize = true;
+            this.lblPlanetSevenHR.BackColor = System.Drawing.Color.Transparent;
+            this.lblPlanetSevenHR.Font = new System.Drawing.Font("Bauhaus 93", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPlanetSevenHR.ForeColor = System.Drawing.Color.White;
+            this.lblPlanetSevenHR.Location = new System.Drawing.Point(865, 18);
+            this.lblPlanetSevenHR.Name = "lblPlanetSevenHR";
+            this.lblPlanetSevenHR.Size = new System.Drawing.Size(91, 28);
+            this.lblPlanetSevenHR.TabIndex = 34;
+            this.lblPlanetSevenHR.Text = "Tiresias";
+            // 
+            // lblPlanetEightHR
+            // 
+            this.lblPlanetEightHR.AutoSize = true;
+            this.lblPlanetEightHR.BackColor = System.Drawing.Color.Transparent;
+            this.lblPlanetEightHR.Font = new System.Drawing.Font("Bauhaus 93", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPlanetEightHR.ForeColor = System.Drawing.Color.White;
+            this.lblPlanetEightHR.Location = new System.Drawing.Point(826, 18);
+            this.lblPlanetEightHR.Name = "lblPlanetEightHR";
+            this.lblPlanetEightHR.Size = new System.Drawing.Size(168, 28);
+            this.lblPlanetEightHR.TabIndex = 35;
+            this.lblPlanetEightHR.Text = "Laestrygonians";
+            // 
             // Planet_Choices_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1193, 599);
+            this.Controls.Add(this.lblPlanetEightHR);
+            this.Controls.Add(this.lblPlanetSevenHR);
+            this.Controls.Add(this.lblPlanetSixHR);
+            this.Controls.Add(this.lblPlanetFiveHR);
+            this.Controls.Add(this.lblPlanetFourHR);
+            this.Controls.Add(this.lblPlanetThreeHR);
+            this.Controls.Add(this.lblPlanetTwoHR);
+            this.Controls.Add(this.lblPlanetEightLR);
+            this.Controls.Add(this.lblPlanetSevenLR);
+            this.Controls.Add(this.lblPlanetSixLR);
+            this.Controls.Add(this.lblPlanetFiveLR);
+            this.Controls.Add(this.lblPlanetFourLR);
+            this.Controls.Add(this.lblPlanetThreeLR);
+            this.Controls.Add(this.lblPlanetTwoLR);
             this.Controls.Add(this.HighRiskPlanetEight);
             this.Controls.Add(this.HighRiskPlanetSeven);
             this.Controls.Add(this.HighRiskPlanetSix);
@@ -430,8 +626,8 @@ namespace Space_Game_Demo
             this.Controls.Add(this.btnLowRisk);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.lblPlanetOneHR);
+            this.Controls.Add(this.lblPlanetOneLR);
             this.Controls.Add(this.HighRiskPlanetOne);
             this.Controls.Add(this.LowRiskPlanetOne);
             this.Name = "Planet_Choices_Form";
@@ -466,8 +662,8 @@ namespace Space_Game_Demo
 
         private System.Windows.Forms.PictureBox LowRiskPlanetOne;
         private System.Windows.Forms.PictureBox HighRiskPlanetOne;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblPlanetOneLR;
+        private System.Windows.Forms.Label lblPlanetOneHR;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.Label label5;
@@ -492,5 +688,19 @@ namespace Space_Game_Demo
         private System.Windows.Forms.PictureBox HighRiskPlanetSix;
         private System.Windows.Forms.PictureBox HighRiskPlanetSeven;
         private System.Windows.Forms.PictureBox HighRiskPlanetEight;
+        private System.Windows.Forms.Label lblPlanetTwoLR;
+        private System.Windows.Forms.Label lblPlanetThreeLR;
+        private System.Windows.Forms.Label lblPlanetFourLR;
+        private System.Windows.Forms.Label lblPlanetFiveLR;
+        private System.Windows.Forms.Label lblPlanetSixLR;
+        private System.Windows.Forms.Label lblPlanetSevenLR;
+        private System.Windows.Forms.Label lblPlanetEightLR;
+        private System.Windows.Forms.Label lblPlanetTwoHR;
+        private System.Windows.Forms.Label lblPlanetThreeHR;
+        private System.Windows.Forms.Label lblPlanetFourHR;
+        private System.Windows.Forms.Label lblPlanetFiveHR;
+        private System.Windows.Forms.Label lblPlanetSixHR;
+        private System.Windows.Forms.Label lblPlanetSevenHR;
+        private System.Windows.Forms.Label lblPlanetEightHR;
     }
 }

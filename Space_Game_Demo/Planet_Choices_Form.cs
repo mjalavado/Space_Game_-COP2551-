@@ -69,6 +69,17 @@ namespace Space_Game_Demo
                 this.LowRiskPlanetSix.Visible = false;
                 this.LowRiskPlanetSeven.Visible = false;
                 this.LowRiskPlanetEight.Visible = false;
+
+                //display the planet names
+                this.lblPlanetOneLR.Visible = true;
+                this.lblPlanetTwoLR.Visible = false;
+                this.lblPlanetThreeLR.Visible = false;
+                this.lblPlanetFourLR.Visible = false;
+                this.lblPlanetFiveLR.Visible = false;
+                this.lblPlanetSixLR.Visible = false;
+                this.lblPlanetSevenLR.Visible = false;
+                this.lblPlanetEightLR.Visible = false;
+
             }
             else if (LowRiskPlanetDie == 2)
             {
@@ -80,6 +91,16 @@ namespace Space_Game_Demo
                 this.LowRiskPlanetSix.Visible = false;
                 this.LowRiskPlanetSeven.Visible = false;
                 this.LowRiskPlanetEight.Visible = false;
+
+                //display the planet names
+                this.lblPlanetOneLR.Visible = false;
+                this.lblPlanetTwoLR.Visible = true;
+                this.lblPlanetThreeLR.Visible = false;
+                this.lblPlanetFourLR.Visible = false;
+                this.lblPlanetFiveLR.Visible = false;
+                this.lblPlanetSixLR.Visible = false;
+                this.lblPlanetSevenLR.Visible = false;
+                this.lblPlanetEightLR.Visible = false;
             }
             else if (LowRiskPlanetDie == 3)
             {
@@ -91,6 +112,16 @@ namespace Space_Game_Demo
                 this.LowRiskPlanetSix.Visible = false;
                 this.LowRiskPlanetSeven.Visible = false;
                 this.LowRiskPlanetEight.Visible = false;
+
+                //display the planet names
+                this.lblPlanetOneLR.Visible = false;
+                this.lblPlanetTwoLR.Visible = false;
+                this.lblPlanetThreeLR.Visible = true;
+                this.lblPlanetFourLR.Visible = false;
+                this.lblPlanetFiveLR.Visible = false;
+                this.lblPlanetSixLR.Visible = false;
+                this.lblPlanetSevenLR.Visible = false;
+                this.lblPlanetEightLR.Visible = false;
             }
             else if (LowRiskPlanetDie == 4)
             {
@@ -102,6 +133,16 @@ namespace Space_Game_Demo
                 this.LowRiskPlanetSix.Visible = false;
                 this.LowRiskPlanetSeven.Visible = false;
                 this.LowRiskPlanetEight.Visible = false;
+
+                //display the planet names
+                this.lblPlanetOneLR.Visible = false;
+                this.lblPlanetTwoLR.Visible = false;
+                this.lblPlanetThreeLR.Visible = false;
+                this.lblPlanetFourLR.Visible = true;
+                this.lblPlanetFiveLR.Visible = false;
+                this.lblPlanetSixLR.Visible = false;
+                this.lblPlanetSevenLR.Visible = false;
+                this.lblPlanetEightLR.Visible = false;
             }
             else if (LowRiskPlanetDie == 5)
             {
@@ -113,6 +154,16 @@ namespace Space_Game_Demo
                 this.LowRiskPlanetSix.Visible = false;
                 this.LowRiskPlanetSeven.Visible = false;
                 this.LowRiskPlanetEight.Visible = false;
+
+                //display the planet names
+                this.lblPlanetOneLR.Visible = false;
+                this.lblPlanetTwoLR.Visible = false;
+                this.lblPlanetThreeLR.Visible = false;
+                this.lblPlanetFourLR.Visible = false;
+                this.lblPlanetFiveLR.Visible = true;
+                this.lblPlanetSixLR.Visible = false;
+                this.lblPlanetSevenLR.Visible = false;
+                this.lblPlanetEightLR.Visible = false;
             }
             else if (LowRiskPlanetDie == 6)
             {
@@ -124,6 +175,16 @@ namespace Space_Game_Demo
                 this.LowRiskPlanetSix.Visible = true;
                 this.LowRiskPlanetSeven.Visible = false;
                 this.LowRiskPlanetEight.Visible = false;
+
+                //display the planet names
+                this.lblPlanetOneLR.Visible = false;
+                this.lblPlanetTwoLR.Visible = false;
+                this.lblPlanetThreeLR.Visible = false;
+                this.lblPlanetFourLR.Visible = false;
+                this.lblPlanetFiveLR.Visible = false;
+                this.lblPlanetSixLR.Visible = true;
+                this.lblPlanetSevenLR.Visible = false;
+                this.lblPlanetEightLR.Visible = false;
             }
             else if (LowRiskPlanetDie == 7)
             {
@@ -135,6 +196,16 @@ namespace Space_Game_Demo
                 this.LowRiskPlanetSix.Visible = false;
                 this.LowRiskPlanetSeven.Visible = true;
                 this.LowRiskPlanetEight.Visible = false;
+
+                //display the planet names
+                this.lblPlanetOneLR.Visible = false;
+                this.lblPlanetTwoLR.Visible = false;
+                this.lblPlanetThreeLR.Visible = false;
+                this.lblPlanetFourLR.Visible = false;
+                this.lblPlanetFiveLR.Visible = false;
+                this.lblPlanetSixLR.Visible = false;
+                this.lblPlanetSevenLR.Visible = true;
+                this.lblPlanetEightLR.Visible = false;
             }
             else if (LowRiskPlanetDie == 8)
             {
@@ -146,6 +217,16 @@ namespace Space_Game_Demo
                 this.LowRiskPlanetSix.Visible = false;
                 this.LowRiskPlanetSeven.Visible = false;
                 this.LowRiskPlanetEight.Visible = true;
+
+                //display the planet names
+                this.lblPlanetOneLR.Visible = false;
+                this.lblPlanetTwoLR.Visible = false;
+                this.lblPlanetThreeLR.Visible = false;
+                this.lblPlanetFourLR.Visible = false;
+                this.lblPlanetFiveLR.Visible = false;
+                this.lblPlanetSixLR.Visible = false;
+                this.lblPlanetSevenLR.Visible = false;
+                this.lblPlanetEightLR.Visible = true;
             }
 
             //determines which high risk planet will display
@@ -159,6 +240,16 @@ namespace Space_Game_Demo
                 this.HighRiskPlanetSix.Visible = false;
                 this.HighRiskPlanetSeven.Visible = false;
                 this.HighRiskPlanetEight.Visible = false;
+
+                //display the planet names
+                this.lblPlanetOneHR.Visible = true;
+                this.lblPlanetTwoHR.Visible = false;
+                this.lblPlanetThreeHR.Visible = false;
+                this.lblPlanetFourHR.Visible = false;
+                this.lblPlanetFiveHR.Visible = false;
+                this.lblPlanetSixHR.Visible = false;
+                this.lblPlanetSevenHR.Visible = false;
+                this.lblPlanetEightHR.Visible = false;
             }
             else if (HighRiskPlanetDie == 2)
             {
@@ -170,6 +261,16 @@ namespace Space_Game_Demo
                 this.HighRiskPlanetSix.Visible = false;
                 this.HighRiskPlanetSeven.Visible = false;
                 this.HighRiskPlanetEight.Visible = false;
+
+                //display the planet names
+                this.lblPlanetOneHR.Visible = false;
+                this.lblPlanetTwoHR.Visible = true;
+                this.lblPlanetThreeHR.Visible = false;
+                this.lblPlanetFourHR.Visible = false;
+                this.lblPlanetFiveHR.Visible = false;
+                this.lblPlanetSixHR.Visible = false;
+                this.lblPlanetSevenHR.Visible = false;
+                this.lblPlanetEightHR.Visible = false;
             }
             else if (HighRiskPlanetDie == 3)
             {
@@ -181,6 +282,16 @@ namespace Space_Game_Demo
                 this.HighRiskPlanetSix.Visible = false;
                 this.HighRiskPlanetSeven.Visible = false;
                 this.HighRiskPlanetEight.Visible = false;
+
+                //display the planet names
+                this.lblPlanetOneHR.Visible = false;
+                this.lblPlanetTwoHR.Visible = false;
+                this.lblPlanetThreeHR.Visible = true;
+                this.lblPlanetFourHR.Visible = false;
+                this.lblPlanetFiveHR.Visible = false;
+                this.lblPlanetSixHR.Visible = false;
+                this.lblPlanetSevenHR.Visible = false;
+                this.lblPlanetEightHR.Visible = false;
             }
             else if (HighRiskPlanetDie == 4)
             {
@@ -192,6 +303,16 @@ namespace Space_Game_Demo
                 this.HighRiskPlanetSix.Visible = false;
                 this.HighRiskPlanetSeven.Visible = false;
                 this.HighRiskPlanetEight.Visible = false;
+
+                //display the planet names
+                this.lblPlanetOneHR.Visible = false;
+                this.lblPlanetTwoHR.Visible = false;
+                this.lblPlanetThreeHR.Visible = false;
+                this.lblPlanetFourHR.Visible = true;
+                this.lblPlanetFiveHR.Visible = false;
+                this.lblPlanetSixHR.Visible = false;
+                this.lblPlanetSevenHR.Visible = false;
+                this.lblPlanetEightHR.Visible = false;
             }
             else if (HighRiskPlanetDie == 5)
             {
@@ -203,6 +324,16 @@ namespace Space_Game_Demo
                 this.HighRiskPlanetSix.Visible = false;
                 this.HighRiskPlanetSeven.Visible = false;
                 this.HighRiskPlanetEight.Visible = false;
+
+                //display the planet names
+                this.lblPlanetOneHR.Visible = false;
+                this.lblPlanetTwoHR.Visible = false;
+                this.lblPlanetThreeHR.Visible = false;
+                this.lblPlanetFourHR.Visible = false;
+                this.lblPlanetFiveHR.Visible = true;
+                this.lblPlanetSixHR.Visible = false;
+                this.lblPlanetSevenHR.Visible = false;
+                this.lblPlanetEightHR.Visible = false;
             }
             else if (HighRiskPlanetDie == 6)
             {
@@ -214,6 +345,16 @@ namespace Space_Game_Demo
                 this.HighRiskPlanetSix.Visible = true;
                 this.HighRiskPlanetSeven.Visible = false;
                 this.HighRiskPlanetEight.Visible = false;
+
+                //display the planet names
+                this.lblPlanetOneHR.Visible = false;
+                this.lblPlanetTwoHR.Visible = false;
+                this.lblPlanetThreeHR.Visible = false;
+                this.lblPlanetFourHR.Visible = false;
+                this.lblPlanetFiveHR.Visible = false;
+                this.lblPlanetSixHR.Visible = true;
+                this.lblPlanetSevenHR.Visible = false;
+                this.lblPlanetEightHR.Visible = false;
             }
             else if (HighRiskPlanetDie == 7)
             {
@@ -225,6 +366,16 @@ namespace Space_Game_Demo
                 this.HighRiskPlanetSix.Visible = false;
                 this.HighRiskPlanetSeven.Visible = true;
                 this.HighRiskPlanetEight.Visible = false;
+
+                //display the planet names
+                this.lblPlanetOneHR.Visible = false;
+                this.lblPlanetTwoHR.Visible = false;
+                this.lblPlanetThreeHR.Visible = false;
+                this.lblPlanetFourHR.Visible = false;
+                this.lblPlanetFiveHR.Visible = false;
+                this.lblPlanetSixHR.Visible = false;
+                this.lblPlanetSevenHR.Visible = true;
+                this.lblPlanetEightHR.Visible = false;
             }
             else if (HighRiskPlanetDie == 8)
             {
@@ -236,6 +387,16 @@ namespace Space_Game_Demo
                 this.HighRiskPlanetSix.Visible = false;
                 this.HighRiskPlanetSeven.Visible = false;
                 this.HighRiskPlanetEight.Visible = true;
+
+                //display the planet names
+                this.lblPlanetOneHR.Visible = false;
+                this.lblPlanetTwoHR.Visible = false;
+                this.lblPlanetThreeHR.Visible = false;
+                this.lblPlanetFourHR.Visible = false;
+                this.lblPlanetFiveHR.Visible = false;
+                this.lblPlanetSixHR.Visible = false;
+                this.lblPlanetSevenHR.Visible = false;
+                this.lblPlanetEightHR.Visible = true;
             }
         }
     }
